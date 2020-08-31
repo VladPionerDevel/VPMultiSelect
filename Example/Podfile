@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VPMultiSelect_Example' do
+  pod 'VPMultiSelect', :path => '../'
+
+  target 'VPMultiSelect_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
