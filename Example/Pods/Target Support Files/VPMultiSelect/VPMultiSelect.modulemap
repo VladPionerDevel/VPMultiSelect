@@ -1,0 +1,6 @@
+framework module VPMultiSelect {
+  umbrella header "VPMultiSelect-umbrella.h"
+
+  export *
+  module * { export * }
+}

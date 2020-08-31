@@ -1,0 +1,16 @@
+PODS:
+  - VPMultiSelect (0.1.0)
+
+DEPENDENCIES:
+  - VPMultiSelect (from `../`)
+
+EXTERNAL SOURCES:
+  VPMultiSelect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VPMultiSelect: 7c4a98c4e914359b6f71e1fa6854293fa4f35b39
+
+PODFILE CHECKSUM: cb3cc70b12b390af70982bb1209c07d9fc6da739
+
+COCOAPODS: 1.9.3
