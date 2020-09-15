@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03AB9CBE73FE1779C30CA707E50C6FD0 /* VPAlertConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC51416A78A1324F4A219C4E16CDC61A /* VPAlertConstraints.swift */; };
+		03AB9CBE73FE1779C30CA707E50C6FD0 /* VPAlertConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5D83B9DD80ADE7C34CD447600FDD97 /* VPAlertConstraints.swift */; };
 		0FF8BC6B46A27D9E9A214689F5A70EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		19FEC4D95C3F531EF161D71CD27A21CE /* Pods-VPMultiSelect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBA75E43273C4A0829C742DFC435F57 /* Pods-VPMultiSelect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22435D254DB212A62301A04207A26FEE /* Pods-VPMultiSelect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D702CCE21FBEDBE382BB0DAC952B60 /* Pods-VPMultiSelect_Example-dummy.m */; };
 		2DDB74AC7A980C37461404F4266B32BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		30D201C1B25525B0BE1D7DB4ED747972 /* VPMultiSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8BD4E220D75C7E3A075E705EB780A /* VPMultiSelect.swift */; };
-		5281143118AE143B3A0E2AADF6A50774 /* VPAlertConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA5BD0F317F0D2F8395987C2C56AF81 /* VPAlertConstants.swift */; };
-		557F0348893543B0A804171E1FF69602 /* VPBackgroundBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED2660AED384D6BF38A1424CED6F5F4 /* VPBackgroundBlur.swift */; };
+		30D201C1B25525B0BE1D7DB4ED747972 /* VPMultiSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE8CB7185A3A6C1020095D53CD33586 /* VPMultiSelect.swift */; };
+		5281143118AE143B3A0E2AADF6A50774 /* VPAlertConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A85EAB7E2AA496C053C2FD417F141 /* VPAlertConstants.swift */; };
+		557F0348893543B0A804171E1FF69602 /* VPBackgroundBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376AE7FD5B7F17B9A57981DBBDCDEB0 /* VPBackgroundBlur.swift */; };
 		8BD099F06AAC1E0D488BB89CACC7BF20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D601A932207EA0189C89F4E110B260D /* VPMultiSelect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B4E3EC2FB54B51D60702E09963490AB /* VPMultiSelect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA4FE787B9A069897B0138F32008280B /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A3E41205F228ADBEB3875E5E67A46E /* ExtensionUIView.swift */; };
-		BCE9CA081339103ECEF8EDB8C0F6DE60 /* VPCustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7346E0E1CC3A60FE8EDBCE407C3F453F /* VPCustomAlertView.swift */; };
-		BDF9F257AEA570FBA90552C4E6E2925D /* VPMultiSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F162DE40E395285228F74723656DD /* VPMultiSelectCell.swift */; };
-		BE1A30A44D508FE69D6036739396953B /* VPAlertAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DDFFB67DFC14433E92AE722E6C26F5 /* VPAlertAnimate.swift */; };
-		C1BB80072DCE57EDA21EB32CD613F370 /* VPMultiSelect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67445315E5F3D4E40DC0021855C38190 /* VPMultiSelect-dummy.m */; };
-		D8F7A5BC0CB2E5704E94D08781ADEF18 /* VPCustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7225BC4F854802BE626D3AB9B0559C /* VPCustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECDBA93DC6C4AB1B5EDE5C74A5F127E8 /* VPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F8A77314CA4F593EF7E01FCBB1190 /* VPViewModel.swift */; };
-		EF696B865A4D2A09909D3AD14216EF20 /* VPCustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 398C1ABD1DE941B6B703C2D8AA0880ED /* VPCustomAlertView-dummy.m */; };
-		F16AEAB490A3A3BA8BB990652E38A3AA /* VPViewModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F4A9D15A593E4B5CB612FA8A0966E /* VPViewModelItem.swift */; };
+		9D601A932207EA0189C89F4E110B260D /* VPMultiSelect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C08FA9BABDC208903A277D8BFC2AE9B3 /* VPMultiSelect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4FE787B9A069897B0138F32008280B /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EDC066A77B8B231748F8BFE0B1E0FD /* ExtensionUIView.swift */; };
+		BCE9CA081339103ECEF8EDB8C0F6DE60 /* VPCustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9069B12A0F47988799522CF1287733D /* VPCustomAlertView.swift */; };
+		BDF9F257AEA570FBA90552C4E6E2925D /* VPMultiSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B14054206F5E016A6CA6A58BAAF3F /* VPMultiSelectCell.swift */; };
+		BE1A30A44D508FE69D6036739396953B /* VPAlertAnimate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A4B9DD1156D810E0B2C93F77C717C /* VPAlertAnimate.swift */; };
+		C1BB80072DCE57EDA21EB32CD613F370 /* VPMultiSelect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E071BC3ACB7A429610A916E83DF23822 /* VPMultiSelect-dummy.m */; };
+		D8F7A5BC0CB2E5704E94D08781ADEF18 /* VPCustomAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A73544A4034DA494F8F7F023F7FEEA70 /* VPCustomAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECDBA93DC6C4AB1B5EDE5C74A5F127E8 /* VPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AB8F1DC31E6D43A359AE9A8C3EC6BD /* VPViewModel.swift */; };
+		EF696B865A4D2A09909D3AD14216EF20 /* VPCustomAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDADB4A5FCBA9F6F9FDAD4D500F8E6D4 /* VPCustomAlertView-dummy.m */; };
+		F16AEAB490A3A3BA8BB990652E38A3AA /* VPViewModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296684208FBCA2191230A1AC0B53DCBE /* VPViewModelItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,47 +46,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019F4A9D15A593E4B5CB612FA8A0966E /* VPViewModelItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPViewModelItem.swift; path = VPMultiSelect/Classes/VPViewModelItem.swift; sourceTree = "<group>"; };
-		0F91738630B8A996BB202E82CCAB06CA /* VPCustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		07FA4CC80A69F8FC3D02F62853BE81B7 /* VPMultiSelect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPMultiSelect.modulemap; sourceTree = "<group>"; };
+		0ACB6C42626F41D1BB0E473E47E1EC99 /* VPMultiSelect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPMultiSelect-Info.plist"; sourceTree = "<group>"; };
+		0BE8CB7185A3A6C1020095D53CD33586 /* VPMultiSelect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPMultiSelect.swift; path = VPMultiSelect/Classes/VPMultiSelect.swift; sourceTree = "<group>"; };
+		0D4A85EAB7E2AA496C053C2FD417F141 /* VPAlertConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstants.swift; path = VPCustomAlertView/Classes/VPAlertConstants.swift; sourceTree = "<group>"; };
+		0F0A4B9DD1156D810E0B2C93F77C717C /* VPAlertAnimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertAnimate.swift; path = VPCustomAlertView/Classes/VPAlertAnimate.swift; sourceTree = "<group>"; };
+		135736DC15624D353980AEAF899096FC /* VPMultiSelect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPMultiSelect-prefix.pch"; sourceTree = "<group>"; };
 		1428A5120E25E62EBF2B542799F02255 /* Pods-VPMultiSelect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPMultiSelect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D7225BC4F854802BE626D3AB9B0559C /* VPCustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-umbrella.h"; sourceTree = "<group>"; };
-		2B4E3EC2FB54B51D60702E09963490AB /* VPMultiSelect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPMultiSelect-umbrella.h"; sourceTree = "<group>"; };
-		2CAECFAB377D3C8439B2886EF2C3220B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2D0AD341469FFABECEE74CF5DA6B1A60 /* VPMultiSelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPMultiSelect.release.xcconfig; sourceTree = "<group>"; };
+		296684208FBCA2191230A1AC0B53DCBE /* VPViewModelItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPViewModelItem.swift; path = VPMultiSelect/Classes/VPViewModelItem.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32AE728E122FB6A9C29E8EBE371D4DC0 /* VPCustomAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPCustomAlertView-Info.plist"; sourceTree = "<group>"; };
-		366F162DE40E395285228F74723656DD /* VPMultiSelectCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPMultiSelectCell.swift; path = VPMultiSelect/Classes/VPMultiSelectCell.swift; sourceTree = "<group>"; };
-		36A8BD4E220D75C7E3A075E705EB780A /* VPMultiSelect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPMultiSelect.swift; path = VPMultiSelect/Classes/VPMultiSelect.swift; sourceTree = "<group>"; };
-		398C1ABD1DE941B6B703C2D8AA0880ED /* VPCustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPCustomAlertView-dummy.m"; sourceTree = "<group>"; };
-		42DDFFB67DFC14433E92AE722E6C26F5 /* VPAlertAnimate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertAnimate.swift; path = VPCustomAlertView/Classes/VPAlertAnimate.swift; sourceTree = "<group>"; };
-		48A3E41205F228ADBEB3875E5E67A46E /* ExtensionUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = VPCustomAlertView/Classes/ExtensionUIView.swift; sourceTree = "<group>"; };
 		4BC8F092D6ADB869F38271BD499EDEC2 /* VPMultiSelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VPMultiSelect.framework; path = VPMultiSelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C6B5C21E6A5C91F34F1649118FC8695 /* VPCustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPCustomAlertView.modulemap; sourceTree = "<group>"; };
-		4E58CDF596E46A1A8CEAA32F2B48F58D /* VPCustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.release.xcconfig; sourceTree = "<group>"; };
-		5B34E2E0DE69AC73722FADE7C9B43F38 /* VPMultiSelect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPMultiSelect.modulemap; sourceTree = "<group>"; };
+		5675341F00F2F60C96678638CD0623E3 /* VPCustomAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.release.xcconfig; sourceTree = "<group>"; };
 		5CA8FB0C3AF97A4C3F644CFBEC8CBE66 /* Pods-VPMultiSelect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VPMultiSelect_Example.modulemap"; sourceTree = "<group>"; };
-		5F71CE5DDB946A2D786AD81FA80CA01C /* VPMultiSelect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPMultiSelect-prefix.pch"; sourceTree = "<group>"; };
-		67445315E5F3D4E40DC0021855C38190 /* VPMultiSelect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPMultiSelect-dummy.m"; sourceTree = "<group>"; };
-		7346E0E1CC3A60FE8EDBCE407C3F453F /* VPCustomAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPCustomAlertView.swift; path = VPCustomAlertView/Classes/VPCustomAlertView.swift; sourceTree = "<group>"; };
+		657B14054206F5E016A6CA6A58BAAF3F /* VPMultiSelectCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPMultiSelectCell.swift; path = VPMultiSelect/Classes/VPMultiSelectCell.swift; sourceTree = "<group>"; };
 		86ED738DC5F7263E18872E5A89FAACD8 /* Pods_VPMultiSelect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VPMultiSelect_Example.framework; path = "Pods-VPMultiSelect_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A8EA74DBB9048660D440084F1F6508 /* VPMultiSelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPMultiSelect.debug.xcconfig; sourceTree = "<group>"; };
 		8DBA75E43273C4A0829C742DFC435F57 /* Pods-VPMultiSelect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VPMultiSelect_Example-umbrella.h"; sourceTree = "<group>"; };
-		8ED2660AED384D6BF38A1424CED6F5F4 /* VPBackgroundBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPBackgroundBlur.swift; path = VPCustomAlertView/Classes/VPBackgroundBlur.swift; sourceTree = "<group>"; };
+		93EDC066A77B8B231748F8BFE0B1E0FD /* ExtensionUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionUIView.swift; path = VPCustomAlertView/Classes/ExtensionUIView.swift; sourceTree = "<group>"; };
+		98825B020D993C0EE08C8B75E766D8FA /* VPCustomAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VPCustomAlertView.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2E9CB0220CB252E703D3E753731E22C /* Pods-VPMultiSelect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VPMultiSelect_Example-Info.plist"; sourceTree = "<group>"; };
 		A3A43359A0518175F9DAD96913F46F63 /* Pods-VPMultiSelect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPMultiSelect_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A4D73BEAF7C0F9F0F8A1F61E695404FE /* VPMultiSelect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VPMultiSelect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACA5BD0F317F0D2F8395987C2C56AF81 /* VPAlertConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstants.swift; path = VPCustomAlertView/Classes/VPAlertConstants.swift; sourceTree = "<group>"; };
-		BFF96D00959F5411259EF6796A21A529 /* VPMultiSelect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPMultiSelect-Info.plist"; sourceTree = "<group>"; };
-		C45B7B0C0AB9CDF88D5DEE0B1FA0D53D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C7BA8351D2537B33E0D6B469B6E2E4D2 /* VPMultiSelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPMultiSelect.debug.xcconfig; sourceTree = "<group>"; };
-		CB9F8A77314CA4F593EF7E01FCBB1190 /* VPViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPViewModel.swift; path = VPMultiSelect/Classes/VPViewModel.swift; sourceTree = "<group>"; };
+		A73544A4034DA494F8F7F023F7FEEA70 /* VPCustomAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-umbrella.h"; sourceTree = "<group>"; };
+		AF13D9D2A2CA4303348C8CD19BC9112E /* VPCustomAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VPCustomAlertView-Info.plist"; sourceTree = "<group>"; };
+		B9069B12A0F47988799522CF1287733D /* VPCustomAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPCustomAlertView.swift; path = VPCustomAlertView/Classes/VPCustomAlertView.swift; sourceTree = "<group>"; };
+		C08FA9BABDC208903A277D8BFC2AE9B3 /* VPMultiSelect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPMultiSelect-umbrella.h"; sourceTree = "<group>"; };
 		D1D702CCE21FBEDBE382BB0DAC952B60 /* Pods-VPMultiSelect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VPMultiSelect_Example-dummy.m"; sourceTree = "<group>"; };
-		DC51416A78A1324F4A219C4E16CDC61A /* VPAlertConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstraints.swift; path = VPCustomAlertView/Classes/VPAlertConstraints.swift; sourceTree = "<group>"; };
+		D376AE7FD5B7F17B9A57981DBBDCDEB0 /* VPBackgroundBlur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPBackgroundBlur.swift; path = VPCustomAlertView/Classes/VPBackgroundBlur.swift; sourceTree = "<group>"; };
 		DE6EAF16DA7242DC1595F6A0A6B00746 /* Pods-VPMultiSelect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VPMultiSelect_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E2E2D6C3477E673650FFE0D4BB782C10 /* VPCustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-prefix.pch"; sourceTree = "<group>"; };
+		E071BC3ACB7A429610A916E83DF23822 /* VPMultiSelect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPMultiSelect-dummy.m"; sourceTree = "<group>"; };
+		E42DC96A657DD74F3F3A599C45974EB9 /* VPMultiSelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPMultiSelect.release.xcconfig; sourceTree = "<group>"; };
 		ECFD90C43FD145527A12B42E6C505E8E /* Pods-VPMultiSelect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VPMultiSelect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EDADB4A5FCBA9F6F9FDAD4D500F8E6D4 /* VPCustomAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VPCustomAlertView-dummy.m"; sourceTree = "<group>"; };
 		EF67899410139DBFEED1678C99C35567 /* VPCustomAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VPCustomAlertView.framework; path = VPCustomAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A917306FFD919A7944DEEDCE98D385 /* VPCustomAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VPCustomAlertView-prefix.pch"; sourceTree = "<group>"; };
+		F3AB8F1DC31E6D43A359AE9A8C3EC6BD /* VPViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPViewModel.swift; path = VPMultiSelect/Classes/VPViewModel.swift; sourceTree = "<group>"; };
 		F7B3C2F601927F19C5BECC3271F68833 /* Pods-VPMultiSelect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VPMultiSelect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD5D83B9DD80ADE7C34CD447600FDD97 /* VPAlertConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VPAlertConstraints.swift; path = VPCustomAlertView/Classes/VPAlertConstraints.swift; sourceTree = "<group>"; };
+		FF654A42A69252A9E52CEFEC5DDE2AA1 /* VPCustomAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VPCustomAlertView.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,44 +114,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A40F3599D5226542843902A14BB06FD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B34E2E0DE69AC73722FADE7C9B43F38 /* VPMultiSelect.modulemap */,
-				67445315E5F3D4E40DC0021855C38190 /* VPMultiSelect-dummy.m */,
-				BFF96D00959F5411259EF6796A21A529 /* VPMultiSelect-Info.plist */,
-				5F71CE5DDB946A2D786AD81FA80CA01C /* VPMultiSelect-prefix.pch */,
-				2B4E3EC2FB54B51D60702E09963490AB /* VPMultiSelect-umbrella.h */,
-				C7BA8351D2537B33E0D6B469B6E2E4D2 /* VPMultiSelect.debug.xcconfig */,
-				2D0AD341469FFABECEE74CF5DA6B1A60 /* VPMultiSelect.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VPMultiSelect";
-			sourceTree = "<group>";
-		};
-		0E54B645838B7E8DB40BA44537214539 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FBC13AADFF5A9F56A1A87B7628E2420 /* VPCustomAlertView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3FBC13AADFF5A9F56A1A87B7628E2420 /* VPCustomAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				48A3E41205F228ADBEB3875E5E67A46E /* ExtensionUIView.swift */,
-				42DDFFB67DFC14433E92AE722E6C26F5 /* VPAlertAnimate.swift */,
-				ACA5BD0F317F0D2F8395987C2C56AF81 /* VPAlertConstants.swift */,
-				DC51416A78A1324F4A219C4E16CDC61A /* VPAlertConstraints.swift */,
-				8ED2660AED384D6BF38A1424CED6F5F4 /* VPBackgroundBlur.swift */,
-				7346E0E1CC3A60FE8EDBCE407C3F453F /* VPCustomAlertView.swift */,
-				F0851D6238FB9AAB0F26D779DADCF6C3 /* Support Files */,
-			);
-			name = VPCustomAlertView;
-			path = VPCustomAlertView;
-			sourceTree = "<group>";
-		};
 		4680F3288834CA679333D746D925AA2F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,36 +122,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5A98C7E9FB36D00C15755326BB8633DD /* Development Pods */ = {
+		731EBE7E92050D528AC6C8058AAE864E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF670C767716BF03B92D8542FF8C0E8A /* VPMultiSelect */,
+				80C79CFA0D69313AFFFF40C65E247FF7 /* VPCustomAlertView */,
+				B84C058F292412BFAB380A107749F1C9 /* VPMultiSelect */,
 			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		5C2434B9EB5DF8E4BFA2825A743A7ABC /* Pod */ = {
+		80C79CFA0D69313AFFFF40C65E247FF7 /* VPCustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				C45B7B0C0AB9CDF88D5DEE0B1FA0D53D /* LICENSE */,
-				2CAECFAB377D3C8439B2886EF2C3220B /* README.md */,
-				A4D73BEAF7C0F9F0F8A1F61E695404FE /* VPMultiSelect.podspec */,
+				93EDC066A77B8B231748F8BFE0B1E0FD /* ExtensionUIView.swift */,
+				0F0A4B9DD1156D810E0B2C93F77C717C /* VPAlertAnimate.swift */,
+				0D4A85EAB7E2AA496C053C2FD417F141 /* VPAlertConstants.swift */,
+				FD5D83B9DD80ADE7C34CD447600FDD97 /* VPAlertConstraints.swift */,
+				D376AE7FD5B7F17B9A57981DBBDCDEB0 /* VPBackgroundBlur.swift */,
+				B9069B12A0F47988799522CF1287733D /* VPCustomAlertView.swift */,
+				DA2A9006C7EF58E264B14BCC1E842599 /* Support Files */,
 			);
-			name = Pod;
+			name = VPCustomAlertView;
+			path = VPCustomAlertView;
 			sourceTree = "<group>";
 		};
-		AF670C767716BF03B92D8542FF8C0E8A /* VPMultiSelect */ = {
+		A9E40A0491882EDF130C6C5B5073065B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36A8BD4E220D75C7E3A075E705EB780A /* VPMultiSelect.swift */,
-				366F162DE40E395285228F74723656DD /* VPMultiSelectCell.swift */,
-				CB9F8A77314CA4F593EF7E01FCBB1190 /* VPViewModel.swift */,
-				019F4A9D15A593E4B5CB612FA8A0966E /* VPViewModelItem.swift */,
-				5C2434B9EB5DF8E4BFA2825A743A7ABC /* Pod */,
-				0A40F3599D5226542843902A14BB06FD /* Support Files */,
+				07FA4CC80A69F8FC3D02F62853BE81B7 /* VPMultiSelect.modulemap */,
+				E071BC3ACB7A429610A916E83DF23822 /* VPMultiSelect-dummy.m */,
+				0ACB6C42626F41D1BB0E473E47E1EC99 /* VPMultiSelect-Info.plist */,
+				135736DC15624D353980AEAF899096FC /* VPMultiSelect-prefix.pch */,
+				C08FA9BABDC208903A277D8BFC2AE9B3 /* VPMultiSelect-umbrella.h */,
+				88A8EA74DBB9048660D440084F1F6508 /* VPMultiSelect.debug.xcconfig */,
+				E42DC96A657DD74F3F3A599C45974EB9 /* VPMultiSelect.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VPMultiSelect";
+			sourceTree = "<group>";
+		};
+		B84C058F292412BFAB380A107749F1C9 /* VPMultiSelect */ = {
+			isa = PBXGroup;
+			children = (
+				0BE8CB7185A3A6C1020095D53CD33586 /* VPMultiSelect.swift */,
+				657B14054206F5E016A6CA6A58BAAF3F /* VPMultiSelectCell.swift */,
+				F3AB8F1DC31E6D43A359AE9A8C3EC6BD /* VPViewModel.swift */,
+				296684208FBCA2191230A1AC0B53DCBE /* VPViewModelItem.swift */,
+				A9E40A0491882EDF130C6C5B5073065B /* Support Files */,
 			);
 			name = VPMultiSelect;
-			path = ../..;
+			path = VPMultiSelect;
 			sourceTree = "<group>";
 		};
 		BCDE60DD3811B9C9C11A1E351FB7E3C8 /* Pods-VPMultiSelect_Example */ = {
@@ -224,9 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5A98C7E9FB36D00C15755326BB8633DD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				0E54B645838B7E8DB40BA44537214539 /* Pods */,
+				731EBE7E92050D528AC6C8058AAE864E /* Pods */,
 				E6C31C8F94FB320543E062B739A149CE /* Products */,
 				4680F3288834CA679333D746D925AA2F /* Targets Support Files */,
 			);
@@ -240,6 +218,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA2A9006C7EF58E264B14BCC1E842599 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98825B020D993C0EE08C8B75E766D8FA /* VPCustomAlertView.modulemap */,
+				EDADB4A5FCBA9F6F9FDAD4D500F8E6D4 /* VPCustomAlertView-dummy.m */,
+				AF13D9D2A2CA4303348C8CD19BC9112E /* VPCustomAlertView-Info.plist */,
+				F2A917306FFD919A7944DEEDCE98D385 /* VPCustomAlertView-prefix.pch */,
+				A73544A4034DA494F8F7F023F7FEEA70 /* VPCustomAlertView-umbrella.h */,
+				FF654A42A69252A9E52CEFEC5DDE2AA1 /* VPCustomAlertView.debug.xcconfig */,
+				5675341F00F2F60C96678638CD0623E3 /* VPCustomAlertView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VPCustomAlertView";
+			sourceTree = "<group>";
+		};
 		E6C31C8F94FB320543E062B739A149CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,21 +241,6 @@
 				4BC8F092D6ADB869F38271BD499EDEC2 /* VPMultiSelect.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F0851D6238FB9AAB0F26D779DADCF6C3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C6B5C21E6A5C91F34F1649118FC8695 /* VPCustomAlertView.modulemap */,
-				398C1ABD1DE941B6B703C2D8AA0880ED /* VPCustomAlertView-dummy.m */,
-				32AE728E122FB6A9C29E8EBE371D4DC0 /* VPCustomAlertView-Info.plist */,
-				E2E2D6C3477E673650FFE0D4BB782C10 /* VPCustomAlertView-prefix.pch */,
-				1D7225BC4F854802BE626D3AB9B0559C /* VPCustomAlertView-umbrella.h */,
-				0F91738630B8A996BB202E82CCAB06CA /* VPCustomAlertView.debug.xcconfig */,
-				4E58CDF596E46A1A8CEAA32F2B48F58D /* VPCustomAlertView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/VPCustomAlertView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,7 +437,7 @@
 /* Begin XCBuildConfiguration section */
 		00A03ECD8424EE6F18A0EB31905FC62E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E58CDF596E46A1A8CEAA32F2B48F58D /* VPCustomAlertView.release.xcconfig */;
+			baseConfigurationReference = 5675341F00F2F60C96678638CD0623E3 /* VPCustomAlertView.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -553,7 +531,7 @@
 		};
 		3E7F593EF95750EDDB00FA45F68D7C93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F91738630B8A996BB202E82CCAB06CA /* VPCustomAlertView.debug.xcconfig */;
+			baseConfigurationReference = FF654A42A69252A9E52CEFEC5DDE2AA1 /* VPCustomAlertView.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -621,7 +599,7 @@
 		};
 		77666BF7BDF28E0735EEC802D6923671 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7BA8351D2537B33E0D6B469B6E2E4D2 /* VPMultiSelect.debug.xcconfig */;
+			baseConfigurationReference = 88A8EA74DBB9048660D440084F1F6508 /* VPMultiSelect.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -653,7 +631,7 @@
 		};
 		912234DD101481496A87EE13D3D66CA5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D0AD341469FFABECEE74CF5DA6B1A60 /* VPMultiSelect.release.xcconfig */;
+			baseConfigurationReference = E42DC96A657DD74F3F3A599C45974EB9 /* VPMultiSelect.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
