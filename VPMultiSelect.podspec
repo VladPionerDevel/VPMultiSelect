@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VPMultiSelect'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A class that allows you to create multi select view.'
 
 # This description is used to generate tags and improve search results.
