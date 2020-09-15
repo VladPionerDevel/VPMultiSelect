@@ -1,5 +1,4 @@
 import XCTest
-import VPMultiSelect
 
 class Tests: XCTestCase {
     

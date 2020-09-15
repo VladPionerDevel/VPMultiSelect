@@ -1,18 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="E75-gH-K7I">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Dbv-mb-0qA">
+            <objects>
+                <viewController id="r9I-Cv-Ukk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1LJ-XG-2qe"/>
+                        <viewControllerLayoutGuide type="bottom" id="P7T-vF-4Ut"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WLY-Ro-L6l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aqt-zk-nZL">
+                                <rect key="frame" x="16" y="44" width="343" height="134"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuP-ae-5KT">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="38"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="MultiSelect">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vXZ-lx-hvc" kind="show" id="AnV-GU-wbQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3F-7p-Bn4">
+                                        <rect key="frame" x="0.0" y="48" width="343" height="38"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="MultiSelect+VPCustomAlertView 1">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="pcG-j5-hTd" kind="show" id="tLt-VB-G93"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geb-Qz-gIb">
+                                        <rect key="frame" x="0.0" y="96" width="343" height="38"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <state key="normal" title="MultiSelect+VPCustomAlertView 2">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Egw-h4-6A6" kind="show" id="ZxZ-Cn-UOx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aqt-zk-nZL" firstAttribute="leading" secondItem="WLY-Ro-L6l" secondAttribute="leadingMargin" id="4vK-Ag-bD7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aqt-zk-nZL" secondAttribute="trailing" id="8m6-Tt-AAh"/>
+                            <constraint firstItem="aqt-zk-nZL" firstAttribute="top" secondItem="1LJ-XG-2qe" secondAttribute="bottom" id="P9a-n8-geR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="E9P-Zj-a6W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AtJ-D5-qqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152.80000000000001" y="147.97601199400302"/>
+        </scene>
+        <!--Multi Select Custom Alert View Controller-->
+        <scene sceneID="8iD-we-tcZ">
+            <objects>
+                <viewController id="pcG-j5-hTd" customClass="MultiSelectCustomAlertViewController" customModule="VPMultiSelect_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZSV-Lm-s0f"/>
+                        <viewControllerLayoutGuide type="bottom" id="zZk-ow-dnu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5xc-NT-gpp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IkP-Cs-j0a">
+                                <rect key="frame" x="16" y="64" width="343" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="n5w-f6-axT"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEx-e8-osN">
+                                <rect key="frame" x="16" y="274" width="343" height="41"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Show Multiselect">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTapped:" destination="pcG-j5-hTd" eventType="touchUpInside" id="wZR-E6-vte"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IkP-Cs-j0a" firstAttribute="top" secondItem="ZSV-Lm-s0f" secondAttribute="bottom" constant="20" id="76V-6M-LWn"/>
+                            <constraint firstItem="tEx-e8-osN" firstAttribute="top" secondItem="IkP-Cs-j0a" secondAttribute="bottom" constant="10" id="7tR-ud-4eA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tEx-e8-osN" secondAttribute="trailing" id="CNh-75-v9k"/>
+                            <constraint firstItem="tEx-e8-osN" firstAttribute="leading" secondItem="5xc-NT-gpp" secondAttribute="leadingMargin" id="IIo-Ga-ppR"/>
+                            <constraint firstItem="IkP-Cs-j0a" firstAttribute="trailing" secondItem="5xc-NT-gpp" secondAttribute="trailingMargin" id="KaR-hE-1Hv"/>
+                            <constraint firstItem="IkP-Cs-j0a" firstAttribute="leading" secondItem="5xc-NT-gpp" secondAttribute="leadingMargin" id="PTl-YV-VCQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zmm-Gz-9Yj"/>
+                    <connections>
+                        <outlet property="textView" destination="IkP-Cs-j0a" id="0Mh-9G-EuB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PdO-ZK-xjX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="985" y="277"/>
+        </scene>
+        <!--Multi Select View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="VPMultiSelect_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MultiSelectViewController" customModule="VPMultiSelect_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +135,161 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zt5-as-rip">
+                                <rect key="frame" x="0.0" y="52" width="375" height="365"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f5d-jJ-PNW">
+                                <rect key="frame" x="0.0" y="419" width="375" height="118"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="1fi-xf-zEx">
+                                <rect key="frame" x="0.0" y="575" width="375" height="92"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shz-xg-HAQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Deselect All">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="deselectedAllTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Web-vD-Ly1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7W-CR-Zez">
+                                        <rect key="frame" x="0.0" y="31" width="375" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Select All">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="selectedAllTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SGR-oW-qyd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFA-KI-rE5">
+                                        <rect key="frame" x="0.0" y="62" width="375" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Get Selected Items">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getSelectedAllTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ubE-q7-uAp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zgt-tM-0qy">
+                                <rect key="frame" x="0.0" y="539" width="375" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zt5-as-rip" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="4gG-w1-y3v"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="f5d-jJ-PNW" secondAttribute="bottom" constant="130" id="8GQ-hu-Tqg"/>
+                            <constraint firstItem="f5d-jJ-PNW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="AIu-Ii-Vpn"/>
+                            <constraint firstItem="zgt-tM-0qy" firstAttribute="top" secondItem="f5d-jJ-PNW" secondAttribute="bottom" constant="2" id="ElG-PX-Hoe"/>
+                            <constraint firstAttribute="bottom" secondItem="1fi-xf-zEx" secondAttribute="bottom" id="F1z-Vh-6yR"/>
+                            <constraint firstItem="f5d-jJ-PNW" firstAttribute="top" secondItem="Zt5-as-rip" secondAttribute="bottom" constant="2" id="Xdp-gn-QnA"/>
+                            <constraint firstAttribute="trailing" secondItem="Zt5-as-rip" secondAttribute="trailing" id="Ye1-cm-xk1"/>
+                            <constraint firstAttribute="trailing" secondItem="1fi-xf-zEx" secondAttribute="trailing" id="b3a-ON-wHj"/>
+                            <constraint firstItem="zgt-tM-0qy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="edT-kI-9hQ"/>
+                            <constraint firstItem="Zt5-as-rip" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="gQJ-rv-NRX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Zt5-as-rip" secondAttribute="bottom" constant="250" id="iyP-HQ-yRQ"/>
+                            <constraint firstAttribute="trailing" secondItem="f5d-jJ-PNW" secondAttribute="trailing" id="k7b-7E-gGA"/>
+                            <constraint firstAttribute="trailing" secondItem="zgt-tM-0qy" secondAttribute="trailing" id="qhh-TX-0lk"/>
+                            <constraint firstItem="1fi-xf-zEx" firstAttribute="top" secondItem="zgt-tM-0qy" secondAttribute="bottom" constant="2" id="qpi-fS-PRN"/>
+                            <constraint firstItem="1fi-xf-zEx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="wnK-qh-2WZ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="CmW-u9-7ct"/>
+                    <connections>
+                        <outlet property="showActionTextView" destination="zgt-tM-0qy" id="ASy-lL-4Xo"/>
+                        <outlet property="textView" destination="f5d-jJ-PNW" id="jqp-lQ-Ozl"/>
+                        <outlet property="viewForMultiSelect" destination="Zt5-as-rip" id="mV9-MD-RZV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="964" y="-413"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hsk-5i-FJT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E75-gH-K7I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AIK-Gi-H58">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="r9I-Cv-Ukk" kind="relationship" relationship="rootViewController" id="Ezf-JD-QRg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJt-kF-JtO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-786.39999999999998" y="147.97601199400302"/>
+        </scene>
+        <!--Multi Select Custom Alert2 View Controller-->
+        <scene sceneID="X5X-59-Nuh">
+            <objects>
+                <viewController id="Egw-h4-6A6" customClass="MultiSelectCustomAlert2ViewController" customModule="VPMultiSelect_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="itB-I4-uhK"/>
+                        <viewControllerLayoutGuide type="bottom" id="M7i-C7-WZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="02O-6P-H7V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AgK-ZD-XSn">
+                                <rect key="frame" x="16" y="64" width="343" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="wdy-tJ-0EM"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKk-tw-gcH">
+                                <rect key="frame" x="16" y="274" width="343" height="41"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Show Multiselect">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="showTapped:" destination="Egw-h4-6A6" eventType="touchUpInside" id="cHH-wO-Qch"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aKk-tw-gcH" firstAttribute="leading" secondItem="02O-6P-H7V" secondAttribute="leadingMargin" id="9ge-zy-PAN"/>
+                            <constraint firstItem="AgK-ZD-XSn" firstAttribute="trailing" secondItem="02O-6P-H7V" secondAttribute="trailingMargin" id="AnY-JB-5ZL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aKk-tw-gcH" secondAttribute="trailing" id="Bjy-fr-0LT"/>
+                            <constraint firstItem="AgK-ZD-XSn" firstAttribute="leading" secondItem="02O-6P-H7V" secondAttribute="leadingMargin" id="TtD-Qz-M6s"/>
+                            <constraint firstItem="aKk-tw-gcH" firstAttribute="top" secondItem="AgK-ZD-XSn" secondAttribute="bottom" constant="10" id="xsM-mC-lAk"/>
+                            <constraint firstItem="AgK-ZD-XSn" firstAttribute="top" secondItem="itB-I4-uhK" secondAttribute="bottom" constant="20" id="zbB-df-Jz2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZhZ-3u-R2x"/>
+                    <connections>
+                        <outlet property="textView" destination="AgK-ZD-XSn" id="U6H-Al-dfU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pik-Bd-DQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="964" y="1015"/>
         </scene>
     </scenes>
 </document>

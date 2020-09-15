@@ -1,16 +1,23 @@
 PODS:
+  - VPCustomAlertView (1.0.2)
   - VPMultiSelect (0.1.0)
 
 DEPENDENCIES:
+  - VPCustomAlertView
   - VPMultiSelect (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - VPCustomAlertView
 
 EXTERNAL SOURCES:
   VPMultiSelect:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VPMultiSelect: 7c4a98c4e914359b6f71e1fa6854293fa4f35b39
+  VPCustomAlertView: 76fd909e01873a672305186e61404ce2e5a81da0
+  VPMultiSelect: 022eb9e425dca82c4fb863f2b827a59479fe70f4
 
-PODFILE CHECKSUM: cb3cc70b12b390af70982bb1209c07d9fc6da739
+PODFILE CHECKSUM: d750aef719838a85521ac902bb547e6adcc4c81f
 
 COCOAPODS: 1.9.3

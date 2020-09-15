@@ -1,11 +1,8 @@
-use_frameworks!
+platform :ios, '11.0'
 
 target 'VPMultiSelect_Example' do
-  pod 'VPMultiSelect', :path => '../'
+	use_frameworks!
+	pod 'VPMultiSelect', :path => '../'
+	pod 'VPCustomAlertView'
 
-  target 'VPMultiSelect_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

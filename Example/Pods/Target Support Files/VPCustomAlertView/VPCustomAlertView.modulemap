@@ -1,0 +1,6 @@
+framework module VPCustomAlertView {
+  umbrella header "VPCustomAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

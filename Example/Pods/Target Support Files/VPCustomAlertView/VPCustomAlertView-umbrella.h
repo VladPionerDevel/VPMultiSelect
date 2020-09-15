@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_VPMultiSelect_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_VPMultiSelect_TestsVersionString[];
+FOUNDATION_EXPORT double VPCustomAlertViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char VPCustomAlertViewVersionString[];
 
