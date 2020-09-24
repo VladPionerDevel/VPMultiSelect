@@ -96,4 +96,12 @@ extension MultiSelectViewController: VPMultiSelectDelegat {
 }
 ```
 
+Create object VPMultiSelect
+```Swift
+    multiSelect = VPMultiSelect(parentView: viewForMultiSelect, arrayItems: items)
+```
+arrayItems - it is an array of Strings or class objects that implements the protocol VPMultiSelectItemProtocol
+
+parentView - this is parent UIView in which the multi select will be placed
+
 
