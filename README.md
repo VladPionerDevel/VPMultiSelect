@@ -27,7 +27,7 @@ VPMultiSelect is available under the MIT license. See the LICENSE file for more 
 
 ## Examples 1
 
-![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPMultiSelect/master/VPMultiSelect/Assets/Screenshots/multiSelect.gif"simple")​
+![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPMultiSelect/master/VPMultiSelect/Assets/Screenshots/multiSelect.gif "simple")​
 
 Code:
 ```Swift
