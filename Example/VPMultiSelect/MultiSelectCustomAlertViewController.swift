@@ -31,12 +31,14 @@ class MultiSelectCustomAlertViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        serupCustomAlerView()
+        // create VPCustomAlertViev
+        setupCustomAlerView()
+        // create an VPMultiSelect and add it to the VPCustomAlertViev
         multiSelect = VPMultiSelect(parentView: customAlertView.containerContent, arrayItems: items)
         
     }
     
-    func serupCustomAlerView(){
+    func setupCustomAlerView(){
         customAlertView = VPCustomAlertView(parentView: self.view, marginTop: 80, marginRight: 30, marginBottom: 100, marginLeft: 30)
         
         customAlertView.isHideTapBlurBackground = true
