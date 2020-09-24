@@ -49,5 +49,4 @@ class MultiSelectCustomAlert2ViewController: UIViewController {
         customAlertView.show(animate: .popapFromRight)
     }
     
-
 }

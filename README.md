@@ -104,8 +104,7 @@ parentView - this is parent UIView in which the multi select will be placed
 
 arrayItems - it is an array of Strings or class objects that implements the protocol VPMultiSelectItemProtocol
 
-## Examples 2
-## VPMultiSelect + VPCustomAlertViev
+## Examples 2 VPMultiSelect + VPCustomAlertViev
 
 ![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPMultiSelect/master/VPMultiSelect/Assets/Screenshots/multiSelect_customAlertView.gif "simple")​
 
@@ -180,8 +179,60 @@ class MultiSelectCustomAlertViewController: UIViewController {
     }
     
 }
-
 ```
+
+## Examples 3 VPMultiSelect + VPCustomAlertViev
+
+![alt tag](https://raw.githubusercontent.com/VladPionerDevel/VPMultiSelect/master/VPMultiSelect/Assets/Screenshots/multiSelect_customAlertView2.gif "simple")​
+
+Code:
+```Swift
+import VPMultiSelect
+import VPCustomAlertView
+
+class MultiSelectCustomAlert2ViewController: UIViewController {
+    
+    @IBOutlet weak var textView: UITextView!
+    
+    var customAlertView: VPCustomAlertView!
+    
+    var multiSelect: VPMultiSelect<String>!
+    var items = ["Ivanov Ivan","Petrov Petr","Sidorv Sidr","Pupkin Vasia","Spider Man","Super Man","Bat Man","Doe John"]
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        setupCustomAlertView()
+        
+        multiSelect = VPMultiSelect(parentView: customAlertView.containerContent, arrayItems: items)
+        
+    }
+    
+    func setupCustomAlertView(){
+        customAlertView = VPCustomAlertView(parentView: self.view, marginTop: 0, marginRight: 0, marginBottom: 0, marginLeft: 50)
+        customAlertView.isAnchorTopToSafeArea = true
+        customAlertView.isAnchorBottomToSafeArea = true
+        
+        customAlertView.addTitle(title: "MultiSelect on CustomAlertView")
+        
+        customAlertView.addAction(title: "Ok") { (button) in
+            var selectedItemsString = ""
+            self.multiSelect.selectedItems.forEach { (item) in
+                selectedItemsString += item + "\r\n"
+            }
+            self.textView.text = selectedItemsString
+            self.customAlertView.hide()
+        }
+    }
+    
+    @IBAction func showTapped(_ sender: UIButton) {
+        customAlertView.show(animate: .popapFromRight)
+    }
+    
+}
+```
+
+#### Learn more about the VPCustomAlertView here: [https://github.com/VladPionerDevel/VPCustomAlertView](https://github.com/VladPionerDevel/VPCustomAlertView)
 
 
 
